@@ -1,1 +1,70 @@
-.
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+a {
+    color: blueviolet;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+a:hover {
+    color: cornflowerblue;
+}
+button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-size: medium;
+    background-color: green;
+    border: 0;
+    transition: backround-color 0.1s;
+}
+button:hover {
+    background-color: cornflowerblue;
+}
+.choices button {
+    display: block;
+}
+input[type="text"] {
+    font-size: medium;
+}
+ol {
+    padding: 0px;
+    max-height: 350px;
+    overflow: auto;
+}
+li {
+    padding: 5px;
+    list-style: decimal inside none;
+}
+li:nth-child(odd) {
+    background-color: cornsilk;
+}
+.wrapper {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+}
+.hide {
+    display: none;
+}
+.start {
+    text-align: center;
+}
+.scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.feedback {
+    font-style: italic;
+    font-size: large;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: dimgray;
+    border-top: 2px solid rgb(218, 216, 216);
+}
+.timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
