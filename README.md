@@ -8,3 +8,4 @@ this took alot  of time for me just to get the timer to work and the scores had 
 
 
 ## screen shot
+![](assets/images/screenshot.png
