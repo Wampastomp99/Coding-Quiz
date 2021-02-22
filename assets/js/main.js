@@ -41,9 +41,7 @@ function getQuestion() {
 
 function questionClick() {
   if (this.value !== questions[currentQuestionIndex].answer) {
-    // penalize time
     time -= 15;
-
     if (time < 0) {
       time = 0;
     }
